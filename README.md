@@ -8,9 +8,9 @@ __Compared with the INSIDER repo, this repo mainly has the following differences
 
 2. Has two new drive programming interfaces: debugging interface and DRAM accessing interface. Basically, the user can 
 
-     1. Leverage the debugging interface at host to peek the variable in the drive program (see app/{device, host}/demo_dbg_peek for example); 
+     1. Leverage the debugging interface at host to peek the variable in the drive program (see `app/{device, host}/demo_dbg_peek` for example); 
 
-     2. Place the large intermediate data into the in-drive DRAM (see app/{device, host}/demo_dram_and_dbg for example), which previously could only be stored in BRAM. Refer to the ICCAD paper for further details.
+     2. Place the large intermediate data into the in-drive DRAM (see `app/{device, host}/demo_dram_and_dbg` for example), which previously could only be stored in BRAM. Refer to the ICCAD paper for further details.
 
 ## Table of Contents
 
