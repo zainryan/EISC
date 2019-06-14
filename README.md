@@ -207,7 +207,7 @@ void kernel(
 
     5. `dbg_peek_resp` stores the drive-sent peek response for debugging.
 
-    6. `app_dram_read_req, app_dram_read_resp, app_dram_write_req_data, app_dram_write_req_apply` corresponds to the in-drive DRAM accessing interface.
+    6. `app_dram_read_req, app_dram_read_resp, app_dram_write_req_data, app_dram_write_req_apply` correspond to the in-drive DRAM accessing interface.
  
 ### Compiling Device Code
 
