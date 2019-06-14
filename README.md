@@ -16,7 +16,6 @@ __Compared with the INSIDER repo, this repo mainly has the following differences
 
 - [EISC](#eisc)
   * [Papers](#papers)
-  * [Restrictions](#restrictions)
   * [Build from Source \[Not Recommended\]](#build-from-source-not-recommended)
     + [AWS EC2](#aws-ec2)
     + [AWS FPGA Toolchain](#aws-fpga-toolchain)
@@ -41,12 +40,6 @@ __Compared with the INSIDER repo, this repo mainly has the following differences
 * [Analyzing and Modeling In-Storage Computing Applications On EISC --- An FPGA-Based System-Level Emulation Platform](https://iccad.com/)<br>
 Zhenyuan Ruan, Tong He and Jason Cong<br>
 2019 International Conference On Computer Aided Design (ICCAD'19)
-
-## Restrictions
-
-1. This is the AWS F1 version of Insider system. Since F1 does not open the partial reconfiguration interface to users, this version does not support dynamically reload the in-storage accelerators. Anytime when you wish to switch to a new accelerator, you need to reprogram the whole FPGA.
-
-2. This version does not support simultaneous multiple applications. We have [a separate github repository](https://github.com/zainryan/Insider-multiapp) for that.
 
 ## Build from Source \[Not Recommended\]
 Alternative, you could use our prebuilt aws image (see [Use Prebuilt AWS Image](#use-prebuilt-aws-image)); this will help you save time to build source from scratch. 
