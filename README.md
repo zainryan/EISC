@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/Version-Experimental-green.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-__Compared with the INSIDER repo, this repo mainly has the following differences:__
+__Compared with the [INSIDER repo](https://github.com/zainryan/INSIDER-System), this repo mainly has the following differences:__
 
 1. More applications. It includes all the applications shown in the ICCAD paper.
 
